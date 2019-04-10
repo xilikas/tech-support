@@ -26,7 +26,7 @@
     "posttest": "npm run lint",
     "migrate": "node ./dist/migrate",
     "prestart": "npm run build",
-    "start": "node .",
+    "start": "nodemon .",
     "prepublishOnly": "npm run test"
   },
   "repository": {
@@ -57,6 +57,7 @@
     "@loopback/testlab": "^1.2.3",
     "@loopback/tslint-config": "^2.0.4",
     "@types/node": "^10.11.2",
+    "nodemon": "^1.18.11",
     "tslint": "^5.14.0",
     "typescript": "^3.4.1"
   }
